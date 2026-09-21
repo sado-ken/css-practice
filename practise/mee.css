@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    gap: 10px;                 
+    height: 275px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+#container div {
+    width: 140px;
+    height: 140px;
+    border: 2px solid black;
+}
+
+#box1 { background-color: skyblue; }
+#box2 { background-color: yellow; }
+#box3 { background-color: green; }
+#box4 { background-color: blueviolet; }
+#box5 { background-color: red; }
+
+@font-face {
+    font-family: Matcha;
+    src: url("FONTS/MatchaWorld.ttf") format("truetype");
+}
+
+#para1 {
+    font-family: Matcha, sans-serif;
+}
+@font-face {
+    font-family: Matcha;
+    src: url("FONTS/MatchaWorld.ttf") format("truetype");
+}
+@import url("fonts.css");
+
+#para2 {
+    font-family: Matcha, sans-serif;
+    font-style: italic;
+}
